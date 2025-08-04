@@ -1,5 +1,5 @@
 function spin() {
-    if (localStorage.getItem("wheelSpinned") === "folse") {
+    if (localStorage.getItem("wheelSpinned") === "true") {
         alert("Вы уже крутили!");
         return;
     }
@@ -49,5 +49,6 @@ function addModalStyles() {
 document.getElementById("playBtn").addEventListener("click", function() {
     window.location.href = "https://betwinner-84107.bar/ua/registration?type=email&bonus=SPORT"; // Ссилка на сайт
 });
+
 
 
